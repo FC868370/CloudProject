@@ -1,1 +1,15 @@
 
+We plan on implementing this by using Docker.
+
+Benchmarks:  
+
+1) Redis
+  The goal is to create a server using Docker or Redis and measure the latency and increase the efficiency 
+  of it. This cloud-based server is used for caching, storing session information, and maintain 
+  hot unstructured data sets.
+2) Memory Bandwidth - Stream
+  
+3) Random Memory Access - RandomAccess
+  
+4) CPU - PXZ
+  The goal of this benchmark is to measure and accelerate the speed it takes to compress a file. And increase the efficiency of compressing a file. 
