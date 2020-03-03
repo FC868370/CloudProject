@@ -19,4 +19,4 @@ Benchmarks:
   Random Memory Access strives to have large working sets with minimal computation. 
   
 4) CPU - PXZ
-  Along with increasing the efficiency, the goal of this benchmark is to measure and accelerate the speed it takes to compress a file
+  Along with increasing the efficiency, the goal of this benchmark is to measure and accelerate the speed it takes to compress a file.
