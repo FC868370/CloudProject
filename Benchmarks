@@ -5,12 +5,12 @@ Benchmarks:
 
 1) Redis
   The goal is to create a server using Docker, measure the latency and increase the efficiency 
-  of it. This cloud-based server is used for caching, storing session information, and maintain 
+  of it. This cloud-based server is used for caching, storing session information, and maintaining 
   hot unstructured data sets.
   
 2) Memory Bandwidth - Stream
   The goal for this is to implement Docker in a CloudLab profile to measure the rate at which data can be read. 
-  Our goal is to reach the standards set on the paper for Docker. 
+  Our goal is to reach the Docker standards set on Table 1 from the 2015 Comparison paper. 
   
 3) Random Memory Access - RandomAccess
   Random Memory Access works to focus on random memory performance. It takes a large section of memory for its 
@@ -19,4 +19,4 @@ Benchmarks:
   Random Memory Access strives to have large working sets with minimal computation. 
   
 4) CPU - PXZ
-  The goal of this benchmark is to measure and accelerate the speed it takes to compress a file. And increase the efficiency of compressing a file. 
+  Along with increasing the efficiency, the goal of this benchmark is to measure and accelerate the speed it takes to compress a file
