@@ -10,6 +10,10 @@ Benchmarks:
 2) Memory Bandwidth - Stream
   
 3) Random Memory Access - RandomAccess
+  Random Memory Access works to focus on random memory performance. It takes a large section of memory for its 
+  working set that is larger than any caches or buffers. Random 8 byte words are then read, modified, and written back. 
+  The random qualities come from using linear feedback shift registers that do not require any memory operations. 
+  Random Memory Access strives to have large working sets with minimal computation. 
   
 4) CPU - PXZ
   The goal of this benchmark is to measure and accelerate the speed it takes to compress a file. And increase the efficiency of compressing a file. 
