@@ -9,6 +9,8 @@ Benchmarks:
   hot unstructured data sets.
   
 2) Memory Bandwidth - Stream
+  The goal for this is to implement Docker in a CloudLab profile to measure the rate at which data can be read. 
+  Our goal is to reach the standards set on the paper for Docker. 
   
 3) Random Memory Access - RandomAccess
   Random Memory Access works to focus on random memory performance. It takes a large section of memory for its 
