@@ -20,4 +20,4 @@ Benchmarks:
   
 4) HPC (High Performance Computing) - Linpack
   Linpack solves a large amount of calculations in a given amount of time and then measures how many processes and calculations
-  it was able to complete in that time. In this case that would be giga floating point operations per second. 
+  it was able to complete in that time. In this case, it would be measured in giga floating point operations per second. 
