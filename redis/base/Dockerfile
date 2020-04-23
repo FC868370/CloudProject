@@ -2,7 +2,7 @@
 # fair comparison 
 #
 # Source: https://index.docker.io/u/tutum/ubuntu-saucy/
-FROM tutum/ubuntu-saucy
+FROM ubuntu
 
 # The apt sources config file contains:
 #    deb http://archive.ubuntu.com/ubuntu saucy main universe
