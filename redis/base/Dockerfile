@@ -1,5 +1,4 @@
-# In production this should probably be busybox, but let's use ubuntu 
-for a
+# In production this should probably be busybox, but let's use ubuntu for a
 # fair comparison 
 #
 # Source: https://index.docker.io/u/tutum/ubuntu-saucy/
