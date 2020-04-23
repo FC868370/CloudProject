@@ -1,0 +1,7 @@
+FROM Colin-Pigeon/base
+
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+sudo make install
+make test
