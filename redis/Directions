@@ -1,0 +1,30 @@
+Once you ssh into the Cloudlab profile run the following commands:  
+
+sudo docker run -it ubuntu /bin/bash
+
+apt-get update
+
+apt-get upgrade
+
+apt-get install redis-server
+
+redis-server
+
+Now you want to leave that terminal open and open a new terminal and ssh back into the head node. Once you are sshd back in run
+the following commands:  
+
+docker exec -it (containters name) bash
+redis-cli ping (Response should be pong)
+
+redis-benchmark
+
+In order to test different aspects of the benchmark you need to know the additions to the command.
+
+-n 10 changes the number of requests sent to the server to be 10
+
+-c 5 changes the number of parallel clients to be 5
+
+-d 100 Changes the bytes of payload sent to be 100 per command
+
+redis-benchmark -n 10 -c 5 -d 100 
+This would be the full command to run with the additions to it. This would test the benchmark with the given restrictions.
