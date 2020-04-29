@@ -13,12 +13,7 @@ Memory Bandwidth benchmark:
 4.) cd into the Stream folder.
     - $ cd Stream
 
-5.) Create Docker image.
-    - docker build -t stream .
+5.) Run the Stream Benchmark.
+    - bash runStream.sh
 
-6.) Run the Docker image.
-    - docker run -it stream
-
-The Stream Benchmark will run 20 times showing the results in four main vector
-kernels: Copy, Scale, Add, and Triad. It will show the average time, minimum 
-time, and maximum time. 
+This will build a Docker Image and will then run the benchmark.The Stream Benchmark will run 20 times showing the results in four main vector kernels: Copy, Scale, Add, and Triad. It will show the average time, minimum time, and maximum time. 
