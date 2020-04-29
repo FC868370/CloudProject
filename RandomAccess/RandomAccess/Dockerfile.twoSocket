@@ -9,6 +9,8 @@ COPY gups.c /
 COPY utils.c /
 COPY utils.h /
 COPY RandomAccess.h /
+RUN apt-get update
+RUN apt-get install -y  gcc
 RUN gcc -Wall -g -c utils.c
 RUN gcc -Wall -g -c gups.c
 RUN gcc -o gups utils.o gups.o -lm
