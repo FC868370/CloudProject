@@ -1,7 +1,8 @@
   
 # in production this should probably be busybox, but let's use ubuntu for a
 # fair comparison 
-FROM gcc
+FROM tutum/ubuntu
+ # gcc
 
 MAINTAINER Ram Rajamony, rajamon@us.ibm.com
 
@@ -9,6 +10,8 @@ COPY gups.c /
 COPY utils.c /
 COPY utils.h /
 COPY RandomAccess.h /
+RUN apt-get update
+RUN apt-get install -y  gcc
 RUN gcc -Wall -g -c utils.c
 RUN gcc -Wall -g -c gups.c
 RUN gcc -o gups utils.o gups.o -lm
@@ -20,7 +23,7 @@ CMD sudo apt-get install -y numactl
 # ADD bin / 
 # CMD numactl --physcpubind=0-7,16-23 --localalloc /gups.c
 CMD ./gups
-CMD exit
+#CMD exit
 #---------------------------------------------------------------------------
 #FROM ubuntu
 
