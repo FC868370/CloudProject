@@ -14,16 +14,16 @@ Memory Bandwidth benchmark:
     - $ cd Stream
 
 5.) Run the Stream Benchmark.
-    - bash runStream.sh
+    - $ bash runStream.sh
     
 This will build a Docker Image and will then run the benchmark. It will also create a new directory 'results'
 and store the benchmark results in a docker.log file.
 
 6.) cd into the Results directory.
-    - cd results
+    - $ cd results
     
 7.) View benchmark results.
-    - cat docker.log
+    - $ cat docker.log
 
 
 The Stream Benchmark will run 20 times showing the results in four main vector kernels: Copy, Scale, Add, and Triad. 
