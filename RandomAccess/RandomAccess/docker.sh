@@ -27,6 +27,8 @@ make
 docker rm gups:latest
 docker build -t gups .
 
+echo "----------------CHECKPOINT------------------------"
+
 mkdir -p results
 log="results/docker.log"
 now=`date`
