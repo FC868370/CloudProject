@@ -26,5 +26,5 @@ and store the benchmark results in a docker.log file.
     - cat docker.log
 
 
-The Stream Benchmark will run 20 times showing the results in four main vector kernels: Copy, Scale, Add, and Triad. It will show the average time, minimum time, 
-and maximum time. 
+The Stream Benchmark will run 20 times showing the results in four main vector kernels: Copy, Scale, Add, and Triad. 
+It will show the average time, minimum time, and maximum time. 
