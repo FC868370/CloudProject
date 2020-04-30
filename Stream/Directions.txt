@@ -1,6 +1,11 @@
 Once you have ssh access into Cloud Lab, follow these steps to run the Stream
 Memory Bandwidth benchmark:
 
+The stream benchmark is a simple benchmark program that measures sustainable memory bandwidth when performing simple
+operations on different vectors.
+
+ssh -p 22 BF842382@clnodevm107-1.clemson.cloudlab.us
+
 1.) Clone the git hub repo into the Cloud Lab ssh.
     - $ git clone https://github.com/FC868370/CloudProject.git
 
