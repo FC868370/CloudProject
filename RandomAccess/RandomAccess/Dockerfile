@@ -19,4 +19,4 @@ CMD sudo apt-get install -y numactl
 # ADD bin / 
 # CMD numactl --physcpubind=0-7,16-23 --localalloc /gups.c
 CMD ./gups
-CMD exit
+#CMD exit
